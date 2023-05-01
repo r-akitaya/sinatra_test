@@ -4,7 +4,7 @@ require 'sinatra/reloader'
 get '/' do
   "
   <h1>Hello World!</h1>
-  <p>コンフリクトを発生させる（mainブランチ）</p>
+  <p>コンフリクトを発生させる（GitHub上のPRで修正）</p>
   <a href='/test'>test</a>"
 end
 
